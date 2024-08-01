@@ -1,0 +1,64 @@
+/******** GLOBAL ********/
+
+body {
+    background-color: rgb(64,35,119);
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+
+}
+
+/******** MAIN ********/
+
+div.calcBody {
+    top: 15%;
+    position: absolute;
+    background-color: white;
+    height: 60vh;
+    width: 50vh;
+    border-radius: 15px;
+}
+
+div.topBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 20%;
+    gap: 1vh;
+}
+
+div.topBody label {
+    font-size: 1.25rem;
+    
+}
+
+div.midBody {
+    position: relative;
+    border: 1px solid black;
+    height: 60%;
+    width: 90%;
+    left: 5%;
+    overflow-y: scroll;
+}
+
+
+div.lowerBody {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 1vh;
+    height: 20%;
+    margin-left: 7%;
+}
